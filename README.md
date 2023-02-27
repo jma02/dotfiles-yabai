@@ -2,4 +2,3 @@
 
 ![alt text](image.png)
 
-# dotfiles-yabai
