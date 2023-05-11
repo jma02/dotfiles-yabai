@@ -62,6 +62,14 @@
       white:   '0xacb0d0'
   colors: *tokyo-night
   window:
-
+    padding:
+        x: 10
+        y: 10
     opacity: 0.7
     decorations: None
+
+  font:
+    normal: 
+      family: FiraCode Nerd Font Mono
+
+
