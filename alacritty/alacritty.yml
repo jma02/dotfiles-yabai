@@ -63,8 +63,8 @@
   colors: *tokyo-night
   window:
     padding:
-        x: 10
-        y: 10
+        x: 0
+        y: 0
     opacity: 0.7
     decorations: None
 

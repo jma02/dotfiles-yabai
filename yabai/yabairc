@@ -16,7 +16,6 @@
 
 #!/usr/bin/env sh
 
-# bar settings
 yabai -m config top_padding 0
 
 # global settings
@@ -42,10 +41,11 @@ yabai -m config mouse_action2                resize
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config bottom_padding               0
-yabai -m config left_padding                 0
-yabai -m config right_padding                0
-yabai -m config window_gap                   0
+yabai -m config top_padding                  10
+yabai -m config bottom_padding               10
+yabai -m config left_padding                 10
+yabai -m config right_padding                10
+yabai -m config window_gap                   10
 
 # float system preferences
 yabai -m rule --add app='^System Information$' manage=off
@@ -54,6 +54,7 @@ yabai -m rule --add title='Preferences$' manage=off
 
 # float settings windows
 yabai -m rule --add title='Settings$' manage=off
+yabai -m config window_border off
 
 
 echo "yabai configuration loaded.."

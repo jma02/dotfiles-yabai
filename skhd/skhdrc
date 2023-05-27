@@ -23,6 +23,16 @@ cmd + shift - down : yabai -m window --swap south || $(yabai -m window --display
 cmd + shift - up : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
 cmd + shift - right : yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
 
+# move window and split
+cmd + alt - j : yabai -m window --warp south
+cmd + alt - k : yabai -m window --warp north
+cmd + alt - h : yabai -m window --warp west
+cmd + alt - l : yabai -m window --warp east
+
+cmd + alt - down : yabai -m window --warp south
+cmd + alt - up : yabai -m window --warp north
+cmd + alt - left : yabai -m window --warp west
+cmd + alt - right : yabai -m window --warp east
 # move focused window to next/prev workspace
 cmd + shift - 1 : yabai -m window --space 1
 cmd + shift - 2 : yabai -m window --space 2
