@@ -32,8 +32,7 @@ mode = "~Alt"
 mods = "Command"
 
 [window]
-decorations = "None"
-opacity = 0.7
+opacity = 1.0
 
 [window.padding]
 x = 0
